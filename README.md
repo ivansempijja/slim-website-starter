@@ -7,24 +7,6 @@ Folder structure
 
 index.php - calls app/app.php
 .htacess - Restricts access to composer.json and composer.lock, also has url rewrite rules
-
 assets - folder includes public and static files
-  |--img
-  |--js
-  |--css
-
 Views - folder includes twigs templates
-  |--app.twig - this is the base twig file
-  |--pages
-    |-- 404.twig
-
-app
-  |--app.php
-  |--routes.php
-  |--Controllers
-  |  |--Controller.php
-  |--Middleware
-  |  |--Middleware.php       
-  |--Helpers
-  |  |--Helper.php
-  |--Models
+app - folder with main app.php file, also config.php should be included in this folder
